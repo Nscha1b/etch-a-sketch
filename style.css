@@ -1,0 +1,146 @@
+*
+{
+	margin: 0,0,0,0,;
+}
+#container
+{
+	height: 706.4px;
+	width: 706.4px;
+	margin-top: -80px;
+	margin-left: 40px;
+	border: 3px solid black;
+	overflow: hidden;
+	float: left;
+}
+.square
+{
+    border: 1px solid black;
+    margin: 0px 0px;
+    background-color: gray;
+    opacity: .5;
+
+}
+table
+{
+    background-color: black;
+    opacity: .9;
+}
+tr, td {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#blue
+{
+	height: 30px;
+	width: 30px;
+	background-color: blue;
+}
+#red
+{
+	height: 30px;
+	width: 30px;
+	background-color: red;
+}
+#green
+{
+	height: 30px;
+	width: 30px;
+	background-color: green;
+}
+#random
+{
+	height: 30px;
+	width: 30px;
+	background-color: white;
+}
+
+#toolbox
+{
+	height: 235px;
+	width: 150px;
+	border: solid black;
+	position: fixed;
+	padding-left: 10px;
+	margin-left: 825px;
+}
+#etch
+{
+	height: 900px;
+	width: 800px;
+	background-color: red;
+	border: solid black;
+	margin-bottom: 5px;
+}
+#title
+{
+	color: #ffcf40;
+	font-family: cursive;
+	font-size: 60px;
+	margin-left: 220px;
+	margin-top: -5px;
+	-webkit-text-stroke: 1px black;
+}
+.wheel
+{
+	background-color: white;
+	border-radius: 100px;
+	border: solid black;
+	height: 110px;
+	width: 110px;
+	float: left;
+	margin-left: 30px;
+}
+#rightWheel
+{
+	float: right;
+	margin-right: 35px;
+}
+#tbTitle
+{
+	margin-top: -0px;
+	margin-left: 18px;
+	font-size: 30px;
+}
+#sizeMenu
+{
+	margin-left: 35px;
+}
+#clearButton
+{
+	margin-left: 35px;
+}
+#madeBy
+{
+	margin-top: -350px;
+	margin-left: 840px;
+	position fixed;
+}
+#name
+{
+	margin-left: 905px;
+	margin-top: -38px;
+	position fixed;
+	color: #ffcf40;
+	font-family: cursive;
+	-webkit-text-stroke: .5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Etch-A-Sketch</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="toolbox">
+		<p id="tbTitle">Tool Box</p>
+		<p style="text-align: center;">Select a grid size</p>
+
+		<form>
+  			<select id="sizeMenu">
+    			<option value="16">16 x 16</option>
+    			<option value="32">32 x 32</option>
+    			<option value="64">64 x 64</option>
+  			</select>
+		</form>
+
+		<input type='button' id="clearButton" onclick='gridSetup()' value='Reset Grid'/>
+
+		<p style="text-align: center;">select a color</p>
+		
+		<button style="margin-left: 4px;" type="button" class="btn" id="random"></button>
+		<button type="button" class="btn" id="red"></button>
+		<button type="button" class="btn" id="green"></button>
+		<button type="button" class="btn" id="blue"></button>
+
+	</div>
+
+
+
+	<div id="etch">
+		<p id="title">Etch-a-Sketch</p>
+		<div id="container">
+			<table id="grid"></table>
+		</div>
+		<div class="wheel"></div>
+		<div class="wheel" id="rightWheel"></div>		
+	</div>
+
+	<p id="madeBy">Made by:</p>
+	<p id="name">Nick Schafer</p>
+
+</body>
+</html>
